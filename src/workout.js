@@ -1,3 +1,6 @@
 class Workout{
-    constructor(im)
+    constructor(title, userId){
+        this.title = title 
+        this.userId = userId
+    }
 }
